@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Profile</title>
+    <link rel="stylesheet" href="ProfilePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="main">LIFE BELOW WATER</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+                <li><a href="Profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile-header">
+            <div class="profile-image">
+                <img src="ProfilePic.jpg" alt="Sharanya Senevirathne">
+            </div>
+            <div class="profile-info">
+                <h1>Sharanya Senevirathne</h1>
+                <h2 class="professional-role">Undergraduate</h2>
+                <p class="bio">
+                    Hello! I'm Sharanya, a dedicated CS student passionate about building sustainable, 
+                    accessible, and user-friendly websites. I believe in the power of technology to create meaningful 
+                    change and am committed to supporting projects that align with the UN Sustainable 
+                    Development Goals.
+                </p>
+            </div>
+        </section>
+
+        <div class="two-column-layout">
+            <section class="skills-experience">
+                <h2>Skills & Experience</h2>
+                <div class="skill">
+                    <div class="skill-name">Team Leadership</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                    <div class="skill-percentage">95%</div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Project Management</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                    <div class="skill-percentage">85%</div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Community Engagement</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                    <div class="skill-percentage">90%</div>
+                </div>
+            </section>
+
+            <section class="goals-frustrations">
+                <h2>Goals & Frustrations</h2>
+                <div class="goals-frustrations-container">
+                    <div class="goals">
+                        <h3>Goals</h3>
+                        <ul>
+                            <li>Impact local communities</li>
+                            <li>Develop leadership skills</li>
+                            <li>Build sustainable programs</li>
+                        </ul>
+                    </div>
+                    <div class="frustrations">
+                        <h3>Frustrations</h3>
+                        <ul>
+                            <li>Limited resources</li>
+                            <li>Volunteer retention</li>
+                            <li>Time management</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="un-goals">
+            <h2>UN Goals I Support</h2>
+            <div class="un-goals-icons">
+                <div class="un-goal">
+                    <div class="goal-icon green">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <p>Reduce Ocean Pollution</p>
+                </div>
+                <div class="un-goal">
+                    <div class="goal-icon red">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <p>Spread Awareness</p>
+                </div>
+                <div class="un-goal">
+                    <div class="goal-icon yellow">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <p>Support Coastal Communities</p>
+                </div>
+                <div class="un-goal">
+                    <div class="goal-icon blue">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <p>Ensure Clean Oceans</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="interests">
+            <h2>Interests</h2>
+            <div class="interests-icons">
+                <div class="interest">
+                    <div class="interest-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <p>Environmental</p>
+                </div>
+                <div class="interest">
+                    <div class="interest-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <p>Community Work</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="availability">
+            <h2>Availability Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Wednesday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Morning</td>
+                        <td class="unavailable"><i class="fas fa-times"></i></td>
+                        <td class="available"><i class="fas fa-check"></i></td>
+                        <td class="available"><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon</td>
+                        <td class="available"><i class="fas fa-check"></i></td>
+                        <td class="unavailable"><i class="fas fa-times"></i></td>
+                        <td class="available"><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="susdev.png" class="footer-img" alt="Footer Logo">
+            </div>
+
+            <div>
+                <h4>Website links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="Sitemap.html">Sitemap</a></li>
+                    <li><a href="#">Table</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <h4>Content pages</h4>
+                <ul>
+                    <li><a href="content_ST1.html">Content 01</a></li>
+                    <li><a href="#">Content 02</a></li>
+                    <li><a href="#">Content 03</a></li>
+                    <li><a href="Content_ST4.html">content 04</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Student pages</h4>
+                <ul>
+                    <li><a href="#">Student 1</a></li>
+                    <li><a href="#">Student 2</a></li>
+                    <li><a href="#">Student 3</a></li>
+                    <li><a href="pageEditor_ST4.html">Student 4</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <h4>Validation pages</h4>
+                <ul>
+                    <li><a href="validation_ST1.html">Student 1</a></li>
+                    <li><a href="#">Student 2</a></li>
+                    <li><a href="#">Student 3</a></li>
+                    <li><a href="validation_ST4.html">Student 4</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-text">
+            <h5 class="h5">©Copyright United Nations. All rights Reserved.</h5>
+            <h5 class="h5">Designed by Group 23 - Subgroup 2</h5>
+        </div>
+    </footer>
+
+</body>
+</html>

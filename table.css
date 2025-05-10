@@ -1,0 +1,137 @@
+body{
+    background-color: #E0F7FA;
+}
+
+.table{
+    border-collapse:separate;
+    width: 85%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#B2EBF2;
+    border: 2px solid #00796B;
+    padding:10px;
+    border-radius: 10px;
+    border-spacing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    display: inline-block;
+    gap: 200px;
+    font-size: 40px;
+    width: 410%;
+    font-weight: bold;
+    color: #004D40;
+    background-color: #E0F2F1;
+}
+
+.header{
+    background-color: #E0F2F1;
+}
+
+th{
+    color: #00796B;
+    background-color: #ffffff;
+    border: 2px solid #004D40;
+    padding:10px;
+}
+
+td{
+    font-size: 17px;
+    width: 25%;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 2px solid #004D40;
+    color: #212121;
+    padding:10px;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+.logo:hover {
+    opacity: 0.8;    
+}
+
+.thumbnail:hover {
+    opacity: 0.8;
+}
+
+.thumb-text {
+    display: inline-block;
+    text-align: left;
+}
+
+.decline{
+    color: #2ecc71;
+    font-weight: bold;
+    background-color: #E0F2F1;
+}
+
+.threat1{
+    color: #f39c12;
+    font-weight: bold;
+    background-color: #B2DFDB;
+}
+
+.endangered {
+    color: #D32F2F;
+    font-weight: bold;
+    background-color: #E0F2F1;
+}
+
+.stable{
+    color: #388E3C;
+    font-weight: bold;
+    background-color: #B2DFDB;
+}
+
+.threat2{
+    color: #f39c12;
+    font-weight: bold;
+    background-color: #E0F2F1;
+}
+
+.unknown {
+    color: #e74c3c;
+    font-weight: bold;
+    background-color: #B2DFDB;
+}
+
+.color1 {
+    background-color: #B2DFDB;
+}
+
+.color2 {
+    background-color: #E0F2F1;
+}
+
+.more-info {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(38, 73, 251);
+}
+
+.more-info:hover{
+    color:rgb(0, 201, 251);
+}
+
+.link {
+    text-align: center;
+    color: #1976D2;
+}
